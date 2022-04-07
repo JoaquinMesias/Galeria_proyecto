@@ -57,6 +57,33 @@ body a{
     display: flex;
 }
 
+.textoNosotros2{
+    animation-name: animacionNosotros2;
+    animation-duration: 60s;
+
+}
+
+.textoNosotros1{
+    animation-name: animacionNosotros1;
+    animation-duration: 60s;
+
+}
+
+@keyframes animacionNosotros1 {
+0% {background-color: blue;}
+50% {background-color: blueviolet;}
+100% {background-color: aqua;}
+    
+}
+
+@keyframes animacionNosotros2 {
+0% {background-color: red;}
+50% {background-color: violet;}
+100% {background-color: darkcyan;}
+    
+}
+
+
 .exposicion{
     display: grid;
     grid-template-columns: 1fr;
